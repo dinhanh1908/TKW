@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/logo/icon.png">
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mew Shoes</title>
+    <link rel="icon" href="assets/img/logo/icon.png">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function checkEmail() {
+          var email = document.getElementById('email');
+          var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+          if (!filter.test(email.value)) {
+              alert('Vui lòng nhập địa chỉ email hợp lệ!\nVí dụ @gmail.com');
+              email.focus;
+              return false;
+          }
+          else
+          {
+              alert('Email hợp lệ!');
+          }
+      }
+  </script>
+    <div class="wapper">
+      <div class="wapper-heading">
+        <h1>Đăng nhập</h1>
+      </div>
+      <form onsubmit="login()">
+        <div class="input__field">
+          <input id="username" type="text" placeholder="Tên đăng nhập" />
+        </div>
+
+        <div class="input__field">
+          <input id="email" type="text" class="input_field--input" name="email" id="email" placeholder="Email" />
+          <input type="button" class="input_field--bt" value="Kiểm tra" onclick="checkEmail(); ">
+        </div>
+        <div class="input__field">
+          <input id="password" type="password" placeholder="Mật khẩu" />
+        </div>
+        <a href="signup.html" class="signup-link">Đăng ký</a>
+        <button id="btn" class="btn">Đăng nhập</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

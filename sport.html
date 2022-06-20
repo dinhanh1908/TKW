@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mew Shoes</title>
+    <link rel="icon" href="assets/img/logo/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <script>
+        alert('Bạn đang ở khu vực bán giày thể thao')
+    </script>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <input hidden type="checkbox" name="" class="top-search__input" id="top-search__input--toggle">
+                <!-- top-search -->
+                <div class="top-search">
+                    <input class="top-search__input" type="text" placeholder="Từ khóa...">
+                    <a href="" class="btn btn--primary-color main-effect">Tìm kiếm</a>
+                </div>
+
+                <label for="top-search__input--toggle" class="top-search__overlay"></label>
+
+                <!-- nav -->
+                <nav class="nav">
+                    <label for="nav__input--toggle" class="nav__menu">
+                        <div class="nav__menu--toggle">
+                            <i class="nav__menu-icon fa-solid fa-bars"></i> <span class="s-hidden">Menu</span>
+                        </div>
+                    </label>
+
+                    <div class="nav__logo">
+                        <a href="#">
+                            <img class="" src="./assets/img/logo/mew-shoes.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="nav__purchase">
+                        <label class="" for="top-search__input--toggle" title="Tìm kiếm">
+                            <img class="nav__purchase-img" src="./assets/img/icon-img/search.png" alt="">
+                        </label>
+                        <a class="" href="login.html" title="Đăng nhập">
+                            <img class="nav__purchase-img" src="./assets/img/icon-img/account.png" alt="">
+                        </a>
+                        <a class="" href="#" title="Đăng xuất">
+                             <a href="out.html"><img class="nav__purchase-img s-hidden" src="./assets/img/icon-img/cart.png" alt=""> </label></a>
+                            
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            
+            <input type="checkbox" hidden name="" class="nav__input" id="nav__input--toggle">
+
+            <!-- navbar -->
+            <label for="nav__input--toggle" class="navbar__overlay"></label>  
+            <div class="navbar">
+                <div class="navbar__header">
+                    <a href="#">
+                        <img src="./assets/img/logo/mew-shoes.png" alt="">
+                    </a>
+                    <label for="nav__input--toggle">
+                        <i class="navbar__header-icon--close far fa-times-circle"></i>
+                    </label>
+                </div>  
+                <div class="navbar__body">
+                    <ul class="navbar__info">
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-store"></i>
+                                Cửa hàng Online</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon far fa-paper-plane"></i>
+                                Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-qrcode"></i>
+                                Thông tin thanh toán</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-store-alt"></i>
+                                Chuỗi cửa hàng MewShoes</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar__category">
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer navbar__category-link--color-primary" href="#">Trang chủ</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer " href="index.html">Giới thiệu</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="./boot.html">Giày boot</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link--color-primary" href="#">Giày thể thao</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="sandals.html">Giày sandals</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="caogot.html">giày cao gót</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer navbar__category-link__pointer--default" href="#">Tin tức</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer navbar__category-link__pointer--default" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__trademark">
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/nb.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/converse.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/clarks.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/v-color.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/vans.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/puma.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="navbar__socials">
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://www.facebook.com/groups/339468258295397">
+                                <img src="./assets/img/social-network/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="email.html">
+                                <img src="./assets/img/social-network/email.png" alt=""> 
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fthuphuowng_2003%3Ffbclid%3DIwAR1xzL79l4zxYjtcg8ZABpHiZBrJl4rvFFiG4FKuqA71RV--k12fUowH6ME&h=AT2jNXqrh0mJFtIkwdpwGE7hoZp2zBm7oHdDBazHqkNHowLIjXb2sBU0ncjePg1Irchv4_YD8o2TBxCK0F-vUGMJZEgwLqLBQkH0OHsWEL4gYexllwIU0tLMhYTch4RrxM39">
+                                <img src="./assets/img/social-network/instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://www.youtube.com/?gl=VN">
+                                <img src="./assets/img/social-network/youtube.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+            <div class="prominent">
+                <div class="grid wide">
+                    <div class="title-section">
+                        <a class="title-section-link" href="#">
+                            <h2 class="heading-section main-effect">Sản phẩm nổi bật</h2>
+                        </a>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/1.png" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/1.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">giày sneaker viền chỉ nổi</a>
+                                    </div>
+                                    <span class="container__product--price-sale">500.000₫</span>
+                                    <span class="container__product--main-price">620.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/2.png" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/2.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker GÓT VIỀN</a>
+                                    </div>
+                                    <span class="container__product--price-sale">5230.000₫</span>
+                                    <span class="container__product--main-price">602.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/3.png" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/3.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker vải tweed</a>
+                                    </div>
+                                    <span class="container__product--price-sale">500.000₫</span>
+                                    <span class="container__product--main-price">580.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 s-m-mt-16">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/4.png" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/4.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker buộc dây</a>
+                                    </div>
+                                    <span class="container__product--price-sale">554.000₫</span>
+                                    <span class="container__product--main-price">600.000₫</span>
+                                </div>
+                                <div class="container__product--new">New</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 s-m-mt-16">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/5.png" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/5.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker in họa tiết</a>
+                                    </div>
+                                    <span class="container__product--price-sale">570.000₫</span>
+                                    <span class="container__product--main-price">450.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!--bestseller-->
+            <div class="prominent">
+                <div class="grid wide">
+                    <div class="title-section">
+                        <a class="title-section-link" href="#">
+                            <h2 class="heading-section main-effect">Bán chạy nhất 2020</h2>
+                        </a>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/6.jpg" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/6.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker đen cá tính</a>
+                                    </div>
+                                    <span class="container__product--price-sale">650.000₫</span>
+                                    <span class="container__product--main-price">723.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/7.jpg" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/7.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker buộc dây</a>
+                                    </div>
+                                    <span class="container__product--price-sale">323.000₫</span>
+                                    <span class="container__product--main-price">380.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/8.jpg" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/8.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker SNK 001</a>
+                                    </div>
+                                    <span class="container__product--price-sale">570.000₫</span>
+                                    <span class="container__product--main-price">6500.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">-7%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 s-m-mt-16">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/9.jpg" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/9.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker SNK 002</a>
+                                    </div>
+                                    <span class="container__product--price-sale">519.000₫</span>
+                                    <span class="container__product--main-price">550.000₫</span>
+                                </div>
+                                <div class="container__product--new">New</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 s-m-mt-16">
+                            <div class="container__products">
+                                <div class="container__product-banner">
+                                    <img class="container__product-img" src="./assets/img/shoes/H8/10.jpg" alt="">
+                                    <div class="container__banner">
+                                        <img src="./assets/img/shoes/H9/10.jpg" alt="" class="container__banner-img">
+                                    </div>
+                                </div>
+                                <div class="container__desc">
+                                    <div class="container__product-ultra">
+                                        <a href="#" class="container__product-name">Giày sneaker SNK 003</a>
+                                    </div>
+                                    <span class="container__product--price-sale">324.000₫</span>
+                                    <span class="container__product--main-price"> 399.000₫</span>
+                                </div>
+                                <div class="container__product--hot">Hot</div>
+                                <div class="container__product--percent">23%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

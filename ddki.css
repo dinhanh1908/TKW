@@ -1,0 +1,47 @@
+.background{
+    width: 100%;
+    height: 100vh;
+   background-image: url(./assets/img/trademark/back.jpg);
+   display: flex;
+
+}
+.form{
+    background-color: rgb(141, 166, 158);
+    margin: auto;
+    padding: 20px 30px;
+    border: 2px solid red;
+  border-radius: 25px;
+  
+}
+input{
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: text;
+}
+h2{
+    text-align: center;
+}
+#title2{
+   margin-left: 180px;
+   background-color: rgb(201, 220, 199);
+   font-size: 20px;
+   border-radius: 10px;
+}
+#title1{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(201, 220, 199);
+ }
+ #title1:hover{
+     background-color: red;
+     cursor: pointer;
+ }
+ #title2:hover{
+     background-color: red;
+     cursor: pointer;
+ }
+ section:hover{
+     cursor: pointer;
+
+ }
+

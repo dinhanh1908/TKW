@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mew Shoes</title>
+    <link rel="icon" href="assets/img/logo/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+   
+        <header class="header">
+            <div class="grid wide">
+                <input hidden type="checkbox" name="" class="top-search__input" id="top-search__input--toggle">
+                <!-- top-search -->
+                <div class="top-search">
+                    <input class="top-search__input" type="text" placeholder="Từ khóa...">
+                    <a href="" class="btn btn--primary-color main-effect">Tìm kiếm</a>
+                </div>
+
+                <label for="top-search__input--toggle" class="top-search__overlay"></label>
+
+                <!-- nav -->
+                <nav class="nav">
+                    <label for="nav__input--toggle" class="nav__menu">
+                        <div class="nav__menu--toggle">
+                            <i class="nav__menu-icon fa-solid fa-bars"></i> <span class="s-hidden">Menu</span>
+                        </div>
+                    </label>
+
+                    <div class="nav__logo">
+                        <a href="index.html">
+                            <img class="" src="./assets/img/logo/mew-shoes.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="nav__purchase">
+                        <label class="" for="top-search__input--toggle" title="Tìm kiếm">
+                            <img class="nav__purchase-img" src="./assets/img/icon-img/search.png" alt="">
+                        </label>
+                        <a class="" href="logins.html" title="Đăng nhập">
+                            <img class="nav__purchase-img" src="./assets/img/icon-img/account.png" alt="">
+                        </a>
+                        <a class="" href="#" title="Đăng xuất">
+                             <a href="out.html"><img class="nav__purchase-img s-hidden" src="./assets/img/icon-img/cart.png" alt=""> </label></a>
+                            
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            
+            <input type="checkbox" hidden name="" class="nav__input" id="nav__input--toggle">
+
+            <!-- navbar -->
+            <label for="nav__input--toggle" class="navbar__overlay"></label>  
+            <div class="navbar">
+                <div class="navbar__header">
+                    <a href="#">
+                        <img src="./assets/img/logo/mew-shoes.png" alt="">
+                    </a>
+                    <label for="nav__input--toggle">
+                        <i class="navbar__header-icon--close far fa-times-circle"></i>
+                    </label>
+                </div>  
+                <div class="navbar__body">
+                    <ul class="navbar__info">
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-store"></i>
+                                Cửa hàng Online</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon far fa-paper-plane"></i>
+                                Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-qrcode"></i>
+                                Thông tin thanh toán</a>
+                        </li>
+                        <li class="navbar__info-item">
+                            <a href="#" class="navbar__info-link">
+                                <i class="navbar__info-icon fas fa-store-alt"></i>
+                                Chuỗi cửa hàng MewShoes</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar__category">
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer navbar__category-link--color-primary" href="#">Trang chủ</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link navbar__category-link__pointer navbar__category-link--color-primary" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="./boot.html">Giày boot</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="#">Giày thể thao</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="#">Giày sandals</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="#">giày cao gót</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="navbar__category-item">
+                            <a class="navbar__category-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__trademark">
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/nb.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/converse.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/clarks.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/v-color.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__trademark-list">
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/vans.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="navbar__trademark-item">
+                                <a href="#">
+                                    <img class="navbar__trademark-img" src="./assets/img/trademark/puma.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="navbar__socials">
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://www.facebook.com/profile.php?id=100079235660570">
+                                <img src="./assets/img/social-network/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="email.html">
+                                <img src="./assets/img/social-network/email.png" alt=""> 
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fthuphuowng_2003%3Ffbclid%3DIwAR1xzL79l4zxYjtcg8ZABpHiZBrJl4rvFFiG4FKuqA71RV--k12fUowH6ME&h=AT2jNXqrh0mJFtIkwdpwGE7hoZp2zBm7oHdDBazHqkNHowLIjXb2sBU0ncjePg1Irchv4_YD8o2TBxCK0F-vUGMJZEgwLqLBQkH0OHsWEL4gYexllwIU0tLMhYTch4RrxM39">
+                                <img src="./assets/img/social-network/instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li class="navbar__socials-item">
+                            <a class="navbar__socials-link" href="https://www.youtube.com/?gl=VN">
+                                <img src="./assets/img/social-network/youtube.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="col l-9">
+            <div class="row">
+                <div class="collection__content">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="collection__item main-effect">
+                            <img src="./assets/img/img-size-l/bg_only_item.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="collection__item-info">
+                            <a href="#" class="collection__item-shoes-name">GIÀY ULTRABOOST 21</a>
+                            <p class="collection__item-desc">
+                                Hàng loạt bản mẫu. Hàng loạt cải tiến. Hàng loạt thử nghiệm. Đồng hành cùng chúng tôi trên hành trình tìm kiếm sự hòa hợp đỉnh cao giữa trọng lượng, sự êm ái và độ đàn hồi. Ultraboost 21. Đón chào...
+                            </p>
+                            <h3 class="collection__item--price-sale">5.100.000₫</h3>
+                            <span class="collection__item--main-price">5.499.000₫</span>
+                            <span class="collection__item--border-bottom"></span>
+                            <ul class="collection__promotions-list">
+                                <li class="collection__promotions-item--gift">
+                                    <img class="collection__promotions-item-img" src="./assets/img/icon-img/gift_g.png" alt=""> QUÀ TẶNG
+                                </li>
+                                <li class="collection__promotions-item">
+                                    <i class="collection__promotions-item-icon fas fa-check"></i>MIỄN PHÍ <span class="collection__promotions-item--service">giao hàng toàn quốc</span>
+                                </li>
+                                <li class="collection__promotions-item">
+                                    <i class="collection__promotions-item-icon fas fa-check"></i>Tặng 1 áo thun <span class="collection__promotions-item--service">thời trang 190k</span>
+                                </li>
+                                <li class="collection__promotions-item">
+                                    <i class="collection__promotions-item-icon fas fa-check"></i>Giao ngay <span class="collection__promotions-item--service">2H tại Hà Nội</span>
+                                </li>
+                                <li class="collection__promotions-item">
+                                    <i class="collection__promotions-item-icon fas fa-check"></i>Không lấy quà vui lòng liên hệ</li>
+                                    <li collection__promotions-item--buy>
+                                        <button>Mua hàng</button>
+                                        
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </body>
+</html>
